@@ -22,7 +22,7 @@
     height: 150px;
     object-fit: cover; /* prevents disortion*/
     display: block;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-left: 40px;
 
 }
@@ -69,4 +69,70 @@
 
 .social-links a:hover {
     color: #0d6efd;
+}
+
+.divider {
+   hr.divider {
+    display: block !important;
+    position: absolute;
+    top: 230px;            
+    left: 40px;
+    width: calc(100% - 80px); 
+    height: 1px;
+    background-color: #d1d5db; /* Noticeable light-to-medium grey */
+    border: none;
+    margin: 0;
+    z-index: 10;
+}        
+}
+
+.about-me-cont{
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    padding-bottom: 60px;
+}
+
+.tech-skills{
+    margin-top: 5%;
+    font-size: 150%;
+    font-weight: 600;
+}
+
+.lang{
+    margin-top: 2%;
+    font-size: 60%;
+    font-weight: 500;
+}
+.langs{
+    font-size: 45%;
+    font-weight: 400;
+}
+
+.tool{
+    font-size: 60%;
+    font-weight: 500;
+}
+.tools{
+    font-size: 45%;
+    font-weight: 400;
+}
+
+.proj{
+    font-size: 150%;
+    font-weight: 600;
+}
+.projects{
+    font-size: 45%;
+    font-weight: 400;
+}
+
+.educ{
+    margin-top: 10%;
+    font-size: 150%;
+    font-weight: 600;
+}
+.education{
+    font-size: 45%;
+    font-weight: 400;
 }
