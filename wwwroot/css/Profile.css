@@ -20,7 +20,7 @@
 .pfp {
     width: 150px;
     height: 150px;
-    object-fit: cover; /* prevents disortion*/
+    object-fit: cover; 
     display: block;
     margin-top: 50px;
     margin-left: 40px;
@@ -79,7 +79,7 @@
     left: 40px;
     width: calc(100% - 80px); 
     height: 1px;
-    background-color: #d1d5db; /* Noticeable light-to-medium grey */
+    background-color: #d1d5db;
     border: none;
     margin: 0;
     z-index: 10;
@@ -92,47 +92,47 @@
     left: 40px;
     padding-bottom: 60px;
 }
-
+.proj{
+    font-size: 35px;
+    font-weight: 600;
+}
+.projects{
+    font-size: 20px;
+    font-weight: 400;
+}
 .tech-skills{
-    margin-top: 5%;
-    font-size: 150%;
+    margin-top: 30px;
+    font-size: 35px;
     font-weight: 600;
 }
 
 .lang{
-    margin-top: 2%;
-    font-size: 60%;
+    margin-top: 2px;
+    font-size: 25px;
     font-weight: 500;
 }
 .langs{
-    font-size: 45%;
+    font-size: 20px;
     font-weight: 400;
 }
 
 .tool{
-    font-size: 60%;
+    font-size: 25px;
     font-weight: 500;
 }
 .tools{
-    font-size: 45%;
+    font-size: 20px;
     font-weight: 400;
 }
 
-.proj{
-    font-size: 150%;
-    font-weight: 600;
-}
-.projects{
-    font-size: 45%;
-    font-weight: 400;
-}
+
 
 .educ{
-    margin-top: 10%;
-    font-size: 150%;
+    margin-top: 50px;
+    font-size: 35px;
     font-weight: 600;
 }
 .education{
-    font-size: 45%;
+    font-size: 20px;
     font-weight: 400;
 }
