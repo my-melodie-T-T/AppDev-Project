@@ -1,0 +1,72 @@
+
+* {
+
+    margin: 0;
+    padding: 0; 
+}
+
+.main{
+    width: 100%;
+    background: url('/img/bg.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif; 
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.pfp {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* prevents disortion*/
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+
+}
+
+.my-info {
+    position:absolute;
+    top: 80px;
+    left: 220px;
+
+}
+.name container {
+
+    display: flex;
+    align-items: center;
+    gap:12px;
+}
+
+.name-container .name{
+    margin: 0;
+     font-weight: 700;
+}
+.my-info .role{
+    font-weight: 550;
+    margin: 0 0 8px 0;
+}
+
+.my-info .bio{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0 8px 0;
+    color: #4a4a4a;
+    line-height: 1.4;
+}
+
+.social-links a {
+    color: #24292f;
+    font-size: 1.3rem;
+    text-decoration: none;
+    display: inline-flex;
+    cursor: pointer;
+    position: relative;
+    top: 0px;
+}
+
+.social-links a:hover {
+    color: #0d6efd;
+}
