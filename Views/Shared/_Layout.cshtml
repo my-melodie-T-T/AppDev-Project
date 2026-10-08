@@ -26,6 +26,17 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
+                        <li class = "nav-item dropdown">
+                            <a class = "nav-link dropdown-toggle text-dark" href = "#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Profiles
+                            </a>
+                            <ul class="dropdown-menu"> 
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action = "Antolin"> Antolin</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action = "Profile"> Boisilio</a></li>
+                                <li><a class="dropdown-item" asp-controller="Home" asp-action = "bon"> Bon</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
             </div>
