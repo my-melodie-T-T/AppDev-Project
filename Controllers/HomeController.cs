@@ -6,6 +6,10 @@ namespace MVC_Project.Controllers;
 
 public class HomeController : Controller
 {
+    public IActionResult Antolin()
+    {
+        return View();
+    }
     public IActionResult Index()
     {
         return View();
